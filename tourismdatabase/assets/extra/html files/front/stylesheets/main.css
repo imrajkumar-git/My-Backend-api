@@ -1,0 +1,986 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz");
+@import url("https://fonts.googleapis.com/css?family=Abel");
+@import url("https://fonts.googleapis.com/css?family=Biryani");
+/* line 1, ../sass/base/_base.scss */
+body {
+color:blue;
+  background-image: url("front/img/Rk.jpg");
+  background-attachment: fixed;
+background-size: cover;
+ 
+
+}
+.h1{
+background-color:;
+
+color:green;
+
+}
+/* line 4, ../sass/base/_base.scss */
+body h3 {
+  font-family: "Abel", sans-serif;
+}
+/* line 7, ../sass/base/_base.scss */
+body h4 {
+  font-family: "Abel", sans-serif;
+  color: #014a81;
+}
+/* line 11, ../sass/base/_base.scss */
+body p, body li, body a, body button {
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+}
+
+.form{
+background-color:green;
+color:white;
+}
+/* line 17, ../sass/base/_base.scss */
+body[data-aos-duration='4000'] [data-aos], [data-aos][data-aos][data-aos-duration='4000'] {
+  transition-duration: 4000ms;
+}
+
+/* line 21, ../sass/base/_base.scss */
+.text__right {
+  text-align: right;
+color:white;
+background-color:;
+
+
+}
+
+.data{
+background-color:green;
+color:white;
+}
+@media only screen and (max-width: 768px) {
+  /* line 26, ../sass/base/_base.scss */
+  .text__right {
+    text-align: center;
+  }
+}
+/* line 32, ../sass/base/_base.scss */
+.color__red {
+  color: red;
+}
+/* line 35, ../sass/base/_base.scss */
+.color__grey {
+  color: #595959;
+}
+
+/* line 40, ../sass/base/_base.scss */
+.primary-btn {
+  background-color: blue;
+  color: white;
+  border: 0px;
+  border-radius: 0px;
+  outline: 0px;
+  padding: 5px 15px;
+  margin: 10px 0px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+/* line 50, ../sass/base/_base.scss */
+.primary-btn:hover {
+  background-color: green;
+  cursor: pointer;
+  box-shadow: 0px 4px 5px rgba(17, 17, 17, 0.4);
+  transform: translateY(-7px);
+}
+/* line 56, ../sass/base/_base.scss */
+.primary-btn:active {
+  border-radius: 0px;
+  -moz-box-shadow: inset 0 0 2px #003860;
+  -webkit-box-shadow: inset 0 0 2px #003860;
+  box-shadow: inset 0 0 2px red;
+}
+
+/* line 65, ../sass/base/_base.scss */
+.heading {
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 69, ../sass/base/_base.scss */
+.heading--margin {
+  margin: 40px 0px;
+}
+
+/* line 74, ../sass/base/_base.scss */
+.section--padding {
+  padding-bottom: 60px;
+}
+
+/* line 78, ../sass/base/_base.scss */
+.section--padding-page {
+  padding-top: 40px;
+}
+
+.highltclr {
+color:red;
+background-color:black;
+padding:opx;
+ 
+}
+
+}
+/* line 83, ../sass/base/_base.scss */
+.title-highltclr {
+  font-weight: bold;
+  text-transform: uppercase;
+  color:white;
+background-color:"green"
+  border: 10px solid black !important;
+}
+
+/* line 88, ../sass/base/_base.scss */
+.title-highltclr-right {
+  color: red;
+}
+
+/* line 94, ../sass/base/_base.scss */
+.pagenav .leftside {
+  text-align: left !important;
+
+
+
+color:green;
+
+
+}
+/* line 97, ../sass/base/_base.scss */
+.pagenav .rightside {
+
+;
+color:green;
+
+
+
+}
+/* line 100, ../sass/base/_base.scss */
+.pagenav .page-hr {
+ border:1px solid blue;
+  margin: 3px 0px !important;
+
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 108, ../sass/base/_base.scss */
+  .pagenav p {
+    text-align: left !important;
+background-color:red;
+  border: 10px solid black !important;
+  }
+}
+/* line 114, ../sass/base/_base.scss */
+.container--paddingtop {
+  margin-top: 30px !important;
+}
+
+/* line 118, ../sass/base/_base.scss */
+.nepali {
+  font-family: "Biryani", sans-serif;
+}
+
+/* line 1, ../sass/module/_latestNews.scss */
+.marqueeNews {
+  padding-bottom: 50px;
+
+
+
+
+}
+/* line 3, ../sass/module/_latestNews.scss */
+.marqueeNews .latestnews {
+  background-color: black;
+  opacity: 8;
+  color: green;
+}
+/* line 7, ../sass/module/_latestNews.scss */
+.marqueeNews .latestnews p {
+  font-weight: bold;
+  margin-bottom: 19px;
+}
+
+/* line 14, ../sass/module/_latestNews.scss */
+.m-news {
+  background-color: red;
+  color: black;
+  border-right:50px solid black;
+}
+.u{
+color:black;
+}
+/* line 18, ../sass/module/_latestNews.scss */
+.m-news p {
+  margin: 7px;
+  padding botton: 30px;
+}
+
+@media (max-width: 700px) {
+  /* line 26, ../sass/module/_latestNews.scss */
+  .marqueeNews {
+    padding-bottom: 20px;
+  }
+}
+/* line 2, ../sass/module/_navbar.scss */
+header h4 {
+  font-family: "Abel", sans-serif;
+}
+/* line 5, ../sass/module/_navbar.scss */
+header .header--image {
+  margin: 10px 10px;
+}
+/* line 8, ../sass/module/_navbar.scss */
+header .header--callus {
+  margin: auto;
+  padding: 35px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 16, ../sass/module/_navbar.scss */
+  header .header--callus {
+    margin: auto;
+    padding: 0px 0px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 25, ../sass/module/_navbar.scss */
+  header .header--right {
+    margin-top: -15px;
+  }
+}
+/* line 32, ../sass/module/_navbar.scss */
+.navbar {
+  background-color:green !important;
+  border-radius: 0px !important;
+  border: 13px solid blue!important;
+
+}
+/* line 36, ../sass/module/_navbar.scss */
+.navbar-default {
+  border:10px solid red;
+}
+/* line 39, ../sass/module/_navbar.scss */
+.navbar-default li a {
+  color: white !important;
+  transition: 0.3s ease-in-out;
+  border: 4px solid black !important;
+}
+/* line 43, ../sass/module/_navbar.scss */
+.navbar-default li a:hover {
+  background-color:black !important;
+ border: 3px solid blue !important;
+  color: red !important;
+ 
+}
+/* line 46, ../sass/module/_navbar.scss */
+.navbar-default li a:active {
+  background-color: white !important;
+color:black;
+
+}
+
+/* line 49, ../sass/module/_navbar.scss */
+.navbar-default li a:focus {
+  background-color: blue !important;
+color:black;
+}
+/* line 54, ../sass/module/_navbar.scss */
+.navbar .dropdown-menu {
+  background-color: black;
+  border: 10px solid red !important;
+color:green!important;
+}
+/* line 57, ../sass/module/_navbar.scss */
+.navbar .dropdown-menu li a {
+  color: white !important;
+}
+/* line 60, ../sass/module/_navbar.scss */
+.navbar .dropdown-menu li a:hover {
+  background-color: red !important;
+color: black  !important;
+ border: 4px solid green !important;
+}
+/* line 63, ../sass/module/_navbar.scss */
+.navbar .dropdown-menu li a:active {
+  background-color: blue !important;
+}
+/* line 66, ../sass/module/_navbar.scss */
+.navbar .dropdown-menu li a:focus {
+  background-color: black !important;
+color:white;
+}
+/* line 70, ../sass/module/_navbar.scss */
+.navbar .dropdown-menu .divider {
+  background-color: green !important;
+}
+
+/* line 76, ../sass/module/_navbar.scss */
+.navbar-nav:not(.sm-collapsible) ul .caret {
+  position: absolute;
+  right: 0;
+  margin-top: 6px;
+  margin-right: 15px;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px dashed;
+}
+
+/* line 86, ../sass/module/_navbar.scss */
+.navbar-nav:not(.sm-collapsible) ul a.has-submenu {
+  padding-right: 30px;
+}
+
+/* make sub menu arrows look like +/- buttons in collapsible mode */
+/* line 93, ../sass/module/_navbar.scss */
+.navbar-nav.sm-collapsible .caret,
+.navbar-nav.sm-collapsible ul .caret {
+  position: absolute;
+  right: 0;
+  margin: -3px 15px 0 0;
+  padding: 0;
+  width: 32px;
+  height: 26px;
+  line-height: 24px;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* line 107, ../sass/module/_navbar.scss */
+.navbar-nav.sm-collapsible .caret:before {
+  content: '+';
+  font-family: monospace;
+  font-weight: bold;
+}
+
+/* line 113, ../sass/module/_navbar.scss */
+.navbar-nav.sm-collapsible .open > a > .caret:before {
+  content: '-';
+}
+
+/* line 117, ../sass/module/_navbar.scss */
+.navbar-nav.sm-collapsible a.has-submenu {
+  padding-right: 50px;
+}
+
+/* revert to Bootstrap's default carets in collapsible mode when the "data-sm-skip-collapsible-behavior" attribute is set to the ul.navbar-nav */
+/* line 124, ../sass/module/_navbar.scss */
+.navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] .caret,
+.navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] ul .caret {
+  position: static;
+  margin: 0 0 0 2px;
+  padding: 0;
+  width: 0;
+  height: 0;
+  border-top: 4px dashed;
+  border-right: 4px solid transparent;
+  border-bottom: 0;
+  border-left: 4px solid transparent;
+}
+
+/* line 137, ../sass/module/_navbar.scss */
+.navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] .caret:before {
+  content: '' !important;
+}
+
+/* line 141, ../sass/module/_navbar.scss */
+.navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] a.has-submenu {
+  padding-right: 15px;
+}
+
+/* scrolling arrows for tall menus */
+/* line 148, ../sass/module/_navbar.scss */
+.navbar-nav span.scroll-up,
+.navbar-nav span.scroll-down {
+  position: absolute;
+  display: none;
+  visibility: hidden;
+  height: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* line 158, ../sass/module/_navbar.scss */
+.navbar-nav span.scroll-up-arrow,
+.navbar-nav span.scroll-down-arrow {
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  margin-left: -8px;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  border-top: 7px dashed transparent;
+  border-right: 7px dashed transparent;
+  border-bottom: 7px solid;
+  border-left: 7px dashed transparent;
+}
+
+/* line 173, ../sass/module/_navbar.scss */
+.navbar-nav span.scroll-down-arrow {
+  top: 6px;
+  border-top: 7px solid;
+  border-right: 7px dashed transparent;
+  border-bottom: 7px dashed transparent;
+  border-left: 7px dashed transparent;
+}
+
+/* add more indentation for 2+ level sub in collapsible mode - Bootstrap normally supports just 1 level sub menus */
+/* line 184, ../sass/module/_navbar.scss */
+.navbar-nav.sm-collapsible ul .dropdown-menu > li > a,
+.navbar-nav.sm-collapsible ul .dropdown-menu .dropdown-header {
+  padding-left: 35px;
+}
+
+/* line 189, ../sass/module/_navbar.scss */
+.navbar-nav.sm-collapsible ul ul .dropdown-menu > li > a,
+.navbar-nav.sm-collapsible ul ul .dropdown-menu .dropdown-header {
+  padding-left: 45px;
+}
+
+/* line 194, ../sass/module/_navbar.scss */
+.navbar-nav.sm-collapsible ul ul ul .dropdown-menu > li > a,
+.navbar-nav.sm-collapsible ul ul ul .dropdown-menu .dropdown-header {
+  padding-left: 55px;
+}
+
+/* line 199, ../sass/module/_navbar.scss */
+.navbar-nav.sm-collapsible ul ul ul ul .dropdown-menu > li > a,
+.navbar-nav.sm-collapsible ul ul ul ul .dropdown-menu .dropdown-header {
+  padding-left: 65px;
+}
+
+/* fix SmartMenus sub menus auto width (subMenusMinWidth and subMenusMaxWidth options) */
+/* line 207, ../sass/module/_navbar.scss */
+.navbar-nav .dropdown-menu > li > a {
+  white-space: normal;
+}
+
+/* line 211, ../sass/module/_navbar.scss */
+.navbar-nav ul.sm-nowrap > li > a {
+  white-space: nowrap;
+}
+
+/* line 215, ../sass/module/_navbar.scss */
+.navbar-nav.sm-collapsible ul.sm-nowrap > li > a {
+  white-space: normal;
+}
+
+/* fix .navbar-right subs alignment */
+/* line 222, ../sass/module/_navbar.scss */
+.navbar-right ul.dropdown-menu {
+  left: 0;
+  right: auto;
+}
+
+/* line 227, ../sass/module/_navbar.scss */
+.navbar-nav > .open > a, .navbar-nav > .open > a:focus, .navbar-nav > .open > a:hover {
+  background-color: blue!important;
+}
+
+/* line 232, ../sass/module/_navbar.scss */
+.navbar-toggle:hover, .navbar-toggle:active, .navbar-toggle:focus {
+  background-color:black  !important;
+}
+
+/* line 245, ../sass/module/_navbar.scss */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+/* line 253, ../sass/module/_navbar.scss */
+.nav .open > a {
+  background: blue !important;
+}
+
+/* line 1, ../sass/module/_hero.scss */
+img {
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+/* line 6, ../sass/module/_hero.scss */
+.md--carousel {
+  z-index: 1;
+  margin-top: -20px;
+}
+
+/* line 10, ../sass/module/_hero.scss */
+.md--adjust {
+  margin-top: 0px;
+}
+
+/* line 1, ../sass/module/_about.scss */
+.about {
+  padding-top: 20px;
+}
+/* line 2, ../sass/module/_about.scss */
+.about .row {
+
+  margin: 0;
+}
+.about
+{
+background-color:green;
+color:white;
+}
+/* line 5, ../sass/module/_about.scss */
+.about--img {
+  padding: 0 !important;
+}
+/* line 9, ../sass/module/_about.scss */
+.about .about--video {
+  margin-bottom: 15px;
+}
+
+/* line 1, ../sass/module/_course.scss */
+.course {
+  /* top, transparent red, faked with gradient */
+  background: linear-gradient(rgba(1, 56, 96, 0.9), rgba(1, 56, 96, 0.9)), url("https://tctechcrunch2011.files.wordpress.com/2015/09/shutterstock_286900829.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-color:white;
+  color: black;
+}
+/* line 8, ../sass/module/_course.scss */
+.course--box {
+  padding: 15px 15px 15px ;
+background-color:green;
+  transition: 0.3s ease-in-out;
+}
+/* line 20, ../sass/module/_course.scss */
+.course h3 {
+background-color:black;
+  color: green;
+}
+
+
+ 
+.gallery {
+
+  background-size: cover;
+  background-attachment: fixed;
+ 
+  background-size: cover;
+  background-attachment: fixed;
+background-color:green;
+  text-align: center;
+  margin: 0px;
+padding:0px;
+
+}
+
+/* line 8, ../sass/module/_gallery.scss */
+.gallery:after {
+  content: "";
+  position: absolute;
+  width: 7.5%;
+  left: 46.5%;
+  height: 45px;
+background-color:none;
+}
+
+/* line 22, ../sass/module/_gallery.scss */
+.port {
+  width: 100%;
+}
+
+/* line 26, ../sass/module/_gallery.scss */
+.gallery_product {
+  margin-bottom: 30px;
+}
+/* line 1, ../sass/module/_services.scss */
+.services {
+
+  
+   background-size: cover;
+  background-attachment: fixed;
+  background-color:red;
+  color: black;
+}
+
+
+/* line 1, ../sass/module/_latestblog.scss */
+.latestblog {
+  /* top, transparent red, faked with gradient */
+  background: linear-gradient(rgba(1, 56, 96, 0.9), rgba(1, 56, 96, 0.9));
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+/* line 8, ../sass/module/_latestblog.scss */
+.latestblog h3 {
+  color: #e5ec12;
+}
+/* line 11, ../sass/module/_latestblog.scss */
+.latestblog a {
+  color: #e5ec12;
+}
+/* line 14, ../sass/module/_latestblog.scss */
+.latestblog a:hover, .latestblog a:focus, .latestblog a:active {
+  color: #e5ec12;
+}
+/* line 17, ../sass/module/_latestblog.scss */
+.latestblog--box {
+  padding: 5px 10px;
+  transition: 0.3s ease-in-out;
+}
+/* line 21, ../sass/module/_latestblog.scss */
+.latestblog--box:hover {
+  cursor: pointer;
+  background-color: rgba(1, 59, 102, 0.4);
+  box-shadow: 1px 1px 4px #2189d3;
+}
+
+.copyright{
+background-color:blue;
+color:black;
+}
+/* line 1, ../sass/module/_contact.scss */
+.contact {
+  
+ 
+  background-size: cover;
+  background-attachment: fixed;
+background-color:blue;
+  color: black;
+}
+/* line 8, ../sass/module/_contact.scss */
+.contact h1 {
+  margin: 40px 0px;
+}
+/* line 11, ../sass/module/_contact.scss */
+.contact p {
+background-color:green;
+  color:black ;
+}
+
+/* line 1, ../sass/module/_footer.scss */
+.footer {
+  background-color: green;
+  color: white;
+}
+/* line 5, ../sass/module/_footer.scss */
+.footer-details a {
+background-color:black;
+  color: green;
+  transition: 0.1s ease-in-out;
+
+  border: 2px solid red !important;
+  
+}
+/* line 9, ../sass/module/_footer.scss */
+.footer-details a:hover, .footer-details a:active, .footer-details a:focus {
+background-color:white;
+  color:black;
+  border: 2px solid green!important;
+}
+/* line 14, ../sass/module/_footer.scss */
+.footer .icons a {
+  font-size: 30px;
+}
+/* line 17, ../sass/module/_footer.scss */
+.footer .icons a:first-child, .footer .icons i:first-child {
+  margin: 0px 0px 0px 0px;
+}
+/* line 20, ../sass/module/_footer.scss */
+.footer .icons a, .footer .icons i {
+  margin: 0px 0px 0px 8px;
+}
+/* line 24, ../sass/module/_footer.scss */
+.footer. copyright {
+  background-color:blue;
+  padding: 10px 0px 0px 0px;
+}
+/* line 27, ../sass/module/_footer.scss */
+.footer .copyright p {
+  text-align: center;
+}
+/* line 30, ../sass/module/_footer.scss */
+.footer .copyright a {
+color:white;
+  
+ 
+  transition: 0.3s ease-in-out;
+}
+/* line 33, ../sass/module/_footer.scss */
+.footer .copyright a:hover {
+  color:black;
+}
+/* line 38, ../sass/module/_footer.scss */
+.footer .fa {
+  transition: 0.3s ease-in-out;
+}
+/* line 40, ../sass/module/_footer.scss */
+.footer .fa:hover {
+  cursor: pointer;
+}
+/* line 43, ../sass/module/_footer.scss */
+.footer .fa-facebook-official:hover {
+  color: white;
+}
+/* line 46, ../sass/module/_footer.scss */
+.footer .fa-youtube:hover {
+  color: #c93032;
+}
+/* line 49, ../sass/module/_footer.scss */
+.footer .fa-twitter:hover {
+  color: #2ea7e0;
+}
+/* line 52, ../sass/module/_footer.scss */
+.footer .fa-google-plus:hover {
+  color: #d84e34;
+}
+
+/* line 59, ../sass/module/_footer.scss */
+#scrolltop {
+  display: none;
+}
+
+/* line 63, ../sass/module/_footer.scss */
+#rocketmeluncur {
+  position: fixed;
+  bottom: 50px;
+  z-index: 7;
+  display: none;
+  visibility: hidden;
+  width: 26px;
+  height: 48px;
+  right: 25px;
+  background: url(https://3.bp.blogspot.com/-GZOBULN1Q4s/VbNxQrf37EI/AAAAAAAAAPk/rak337seJ70/s1600/Ask.png) no-repeat 50% 0;
+  opacity: 0;
+  -webkit-transition: visibility 0.6s cubic-bezier(0.6, 0.04, 0.98, 0.335), opacity 0.6s cubic-bezier(0.6, 0.04, 0.98, 0.335), -webkit-transform 0.6s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  -moz-transition: visibility 0.6s cubic-bezier(0.6, 0.04, 0.98, 0.335), opacity 0.6s cubic-bezier(0.6, 0.04, 0.98, 0.335), -moz-transform 0.6s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  transition: visibility 0.6s cubic-bezier(0.6, 0.04, 0.98, 0.335), opacity 0.6s cubic-bezier(0.6, 0.04, 0.98, 0.335), transform 0.6s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  outline: 0;
+}
+
+/* line 80, ../sass/module/_footer.scss */
+#rocketmeluncur i {
+  display: block;
+  margin-top: 48px;
+  height: 14px;
+  background: url(https://1.bp.blogspot.com/-UR9I7YEuEUY/VXIJn8MrBPI/AAAAAAAAKRE/qZObHBd5zIo/s1600/rocket.png) no-repeat 50% -48px;
+  opacity: .5;
+  -webkit-transition: -webkit-transform .2s;
+  -moz-transition: -moz-transform .2s;
+  transition: transform .2s;
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  outline: 0;
+}
+
+/* line 95, ../sass/module/_footer.scss */
+#rocketmeluncur:hover {
+  background-position: 50% -62px;
+  outline: 0;
+}
+
+/* line 100, ../sass/module/_footer.scss */
+#rocketmeluncur:hover i {
+  background-position: 50% 100%;
+  -webkit-animation: flaming .7s infinite;
+  -moz-animation: flaming .7s infinite;
+  animation: flaming .7s infinite;
+  outline: 0;
+}
+
+/* line 108, ../sass/module/_footer.scss */
+#rocketmeluncur.showrocket {
+  visibility: visible;
+  opacity: 1;
+  outline: 0;
+}
+
+/* line 114, ../sass/module/_footer.scss */
+#rocketmeluncur.launchrocket {
+  background-position: 50% -62px;
+  opacity: 0;
+  -webkit-transform: translateY(-800px);
+  -moz-transform: translateY(-800px);
+  -ms-transform: translateY(-800px);
+  transform: translateY(-800px);
+  pointer-events: none;
+  outline: 0;
+}
+
+/* line 125, ../sass/module/_footer.scss */
+#rocketmeluncur.launchrocket i {
+  background-position: 50% 100%;
+  -webkit-transform: scale(1.4, 3.2);
+  -moz-transform: scale(1.4, 3.2);
+  transform: scale(1.4, 3.2);
+  outline: 0;
+}
+
+/* line 2, ../sass/layout/_pageNav.scss */
+.pagenav h3, .pagenav p {
+  margin: 5px 0px;
+}
+/* line 5, ../sass/layout/_pageNav.scss */
+.pagenav h3 {
+  text-align: left;
+}
+/* line 8, ../sass/layout/_pageNav.scss */
+.pagenav p {
+  text-align: right;
+}
+
+/* line 14, ../sass/layout/_pageNav.scss */
+.section--padding-page ol {
+  margin: 0px 40px;
+}
+/* line 15, ../sass/layout/_pageNav.scss */
+.section--padding-page ol li {
+  list-style-type: decimal;
+}
+
+/* line 6, ../sass/module/pages/_abtPage.scss */
+.abt-intro h3,
+.wtca h3,
+.oc h3,
+.pi h3 {
+  font-weight: bold;
+}
+
+/* line 12, ../sass/module/pages/_abtPage.scss */
+.well,
+.well-sm {
+  border-radius: 0px !important;
+}
+
+/* line 17, ../sass/module/pages/_abtPage.scss */
+.inst-detail {
+  padding: 10px;
+  /*
+    Multicoloured Hover Variations
+*/
+}
+/* line 19, ../sass/module/pages/_abtPage.scss */
+.inst-detail .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+/* line 24, ../sass/module/pages/_abtPage.scss */
+.inst-detail .social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+/* line 36, ../sass/module/pages/_abtPage.scss */
+.inst-detail #social-fb {
+  color: #3B5998;
+}
+/* line 39, ../sass/module/pages/_abtPage.scss */
+.inst-detail #social-tw {
+  color: #4099FF;
+}
+/* line 42, ../sass/module/pages/_abtPage.scss */
+.inst-detail #social-in {
+  color: #0077B5;
+}
+
+/* line 6, ../sass/module/pages/_services_page.scss */
+.sales ol,
+.repair ol,
+.section--padding-page ol {
+  margin: 0px 40px;
+}
+/* line 7, ../sass/module/pages/_services_page.scss */
+.sales ol li,
+.repair ol li,
+.section--padding-page ol li {
+  list-style-type: decimal !important;
+}
+/* line 12, ../sass/module/pages/_services_page.scss */
+.sales h3,
+.repair h3,
+.section--padding-page h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+/* line 16, ../sass/module/pages/_services_page.scss */
+.sales h3 .rightext,
+.repair h3 .rightext,
+.section--padding-page h3 .rightext {
+  color: #014a81;
+}
+
+/* line 1, ../sass/module/pages/_student-result.scss */
+.filter-result {
+  padding: 10px;
+}
+/* line 3, ../sass/module/pages/_student-result.scss */
+.filter-result button {
+  background-color: blue;
+  color: white;
+  border: 0px;
+  border-radius: 0px;
+  outline: 0px;
+  padding: 5px 15px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+/* line 12, ../sass/module/pages/_student-result.scss */
+.filter-result button:hover {
+  background-color: green;
+  cursor: pointer;
+  box-shadow: 0px 4px 5px rgba(17, 17, 17, 0.4);
+}
+/* line 17, ../sass/module/pages/_student-result.scss */
+.filter-result button:active {
+  border-radius: 0px;
+  -moz-box-shadow: inset 0 0 2px #003860;
+  -webkit-box-shadow: inset 0 0 2px #003860;
+  box-shadow: inset 0 0 2px #003860;
+}
+
+/* line 1, ../sass/module/pages/_singleblog.scss */
+.h3--nomargin {
+  margin: 1px 0px;
+}
+.tree{
+background-color:green;
+
+}
+
+/* line 5, ../sass/module/pages/_singleblog.scss */
+hr {
+  margin: 0px;
+}
+
+/* line 2, ../sass/module/pages/_insidecourse.scss */
+.fastlinks li {
+  border-bottom: 1px solid red;
+  padding: 5px 0px;
+background-color:
+}
+/* line 6, ../sass/module/pages/_insidecourse.scss */
+.fastlinks li:last-child {
+  border-bottom: none;
+}
+/* line 9, ../sass/module/pages/_insidecourse.scss */
+.fastlinks a {
+  color: white;
+background-color:green;
+  transition: 0.3s ease-in-out;
+  border: 5px solid black !important;
+}
+/* line 13, ../sass/module/pages/_insidecourse.scss */
+fastlinks a:hover, .fastlinks a:active, .fastlinks a:focus {
+  color: white;
+}
+

@@ -1,0 +1,25 @@
+{% extends 'Base_base.html' %}
+{% block content %}
+<h1> Hello My First name is:{{first}}!!!!!!!!!</h1>
+<h1>last name:{{last}}</h1>
+<h1> My address is:{{address}}</h1>
+<h1>contact no:{{contact}}</h1>
+<h1>Email:{{email}}</h1>
+
+<br><br><br><br>
+<br><br>
+
+<h2> <b>simple calculator</h2></b>
+<b><h2> Please enter two number:</h2></b>
+<form action="add">
+    
+    Enter 1st number : <input type="text" name="num1">
+    Enter 2nd number : <input type="text" name="num2">
+   <b><h3>Please click the submit button to see your result</h3></b>
+   <input  type = "submit">
+   <br>
+   
+   {% endblock %}
+</form>
+
+

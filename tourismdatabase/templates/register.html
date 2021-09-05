@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+</head>
+<body >
+    <form action="register" method="POST">
+        {% csrf_token %}
+        <p><h1>User registeration Form.</h1></p>
+        <input type="text" name="first_name" placeholder="first_name"><br>
+        <input type="text" name="last_name" placeholder="last_name"><br>
+        <input type="text" name="username" placeholder="username"><br>
+        <input type="email_address" name="email" placeholder="email"><br>
+        <input type="password" name="password1" placeholder="password"><br>
+        <input type="password" name="password2" placeholder="password"><br>
+        <input type="submit" name="submit">
+       
+    </form>
+</body>
+</html>

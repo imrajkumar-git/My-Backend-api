@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <title> {{ blog.title }}</title>
+  </head>
+<body>
+      <h1> {{ blog.title }}</h1>
+          <p>{{ blog.pub_date }}</p>
+      <hr />
+      <br />
+      <center>
+      	<img src = "{{ blog.image.url }}"  height=”300” width=”400”/>
+      </center>
+<br />
+      <br/>
+      <p>{{ blog.body }}</p>
+      &copy; Indrajeet,  {% now "Y" %}
+  </body>
+</html>

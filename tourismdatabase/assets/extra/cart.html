@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>G & D Developers</title>
+  <link rel="stylesheet" href="bootstrap-5.0.0-beta2\dist\css\bootstrap.min.css" > 
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="css/style.css" > 
+</head>
+<body>
+     <nav class="navbar navbar-expand-sm navbar-dark bg-dark me-auto" role="navigation">
+            <div class="container-fluid">
+               <a href="index.html"> <img src="Resources/logo.png"  height="50px" width="50px"alt="G & D Developers"></a>
+                <a class="navbar-brand" href="5.html" >   G & D Developers </i>  </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#a" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse " id="a">
+                  <ul class="navbar-nav ms-auto mb-auto mb-lg=0 ">
+                        <a class="nav-link active" aria-current="page" href="1.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="2.html">second</a>
+                        <a class="nav-link active" aria-current="page" href="3.html">third</a>
+                        <a class="nav-link active" aria-current="page" href="4.html">About us</a>
+    
+                        <a class="nav-link active" aria-current="page" href="5.html">Contact us</a>
+                        
+                    </ul>
+                    <form class="d-flex input-group w-auto">
+                        <input type="search" class="form-control" placeholder="Search" aria-label="search">
+                      <span> <button class="btn btn-outline-primary" type="button">GO</button></span> 
+                    </form>
+                   <br>
+                  <button class="btn btn-outline-primary" type="button" style="margin-left: 1%;">Log in</button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-10 col-11 mx-auto">
+                    <div class="row mt-5 gx-3"> 
+                        <!-- left side div -->
+                     <div class="col-md-12 col-lg-8 col-11 mx-auto main_cart mb-lg-0 mb-5 shadow">
+                       <div class="card p-4">
+                        <h2 class="py-4 font-weight-bold">Cart (2 item)</h2>
+                        <div class="row">
+                            <!-- cart images div -->
+                            <div class="col-md-5 col-11 mx-auto bg-light d-flex justify-content-center align-item-center  shadow product_img">
+                              <img src="1.jpg" class="img-fluid" alt="cart-img">
+                            </div>
+                            <!-- cart product details -->
+                            <div class="col-md-7 col-11 mx-auto px-4 mt-2">
+                                <div class="row">
+                                    <!-- product name -->
+                                    <div class="col-6 card-title">
+                                      <h1 class="mb-4 product_name">Shirt</h1>
+                                      <p class="mb-2">Shirt: blue</p>
+                                      <p class="mb-2">color- blue</p>
+                                      <p class="mb-3">size-M</p>
+                                    </div>
+                                    <!-- quantity imp dec -->
+                                    <div class="col-6">
+                                      <ul class="pagination justify-content-end set_quantity">
+                                      <li class="page-item">
+                                      <button class="page-link " onclick="decreaseNumber('textbox','itemval')">
+                                      <i class="fas fa-minus"></i> </button>
+                                      </li>
+                                      <li class="page-item"><input type="text" name="" class="page-link" value="0" id="textbox" >
+                                      </li>
+                                      <li class="page-item">
+                                      <button class="page-link" onclick="increaseNumber('textbox','itemval')"> <i class="fas fa-plus"></i></button>
+                                      </li>
+                                      </ul>
+                                      </div>
+                                      </div>
+                                      <!-- //remover move and price -->
+                                      <div class="row">
+                                      <div class="col-8 d-flex justify-content-between remove_wish">
+                                      <p><i class="fas fa-trash-alt"></i> REMOVE ITEM</p>
+                                      <p><i class="fas fa-heart"></i>MOVE TO WISH LIST </p>
+                                      </div>
+                                      <div class="col-4 d-flex justify-content-end price_money">
+                                      <h3>$<span id="itemval">0.00 </span></h3>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      <hr/>
+                                      <!-- 2nd cart product -->
+                                      <div class="card p-4">
+                                      <div class="row">
+                                      <!-- cart images div -->
+                                      <div class="col-md-5 col-11 mx-auto bg-light d-flex justify-content-center align-items-center shadow product_img">
+                                      <img src="images/img3.png" class="img-fluid" alt="cart img">
+                                      </div>
+                                      
+                                      
+                                      
+                                      
+                                      <!-- cart product details -->
+                                      <div class="col-md-7 col-11 mx-auto px-4 mt-2">
+                                      <div class="row">
+                                      <!-- product name  -->
+                                      <div class="col-6 card-title">
+                                      <h1 class="mb-4 product_name">Green Zara Shirt</h1>
+                                      <p class="mb-2">SHIRT - Green</p>
+                                      <p class="mb-2">COLOR: Green</p>
+                                      <p class="mb-3">SIZE: M</p>
+                                      </div>
+                                      <!-- quantity inc dec -->
+                                      <div class="col-6">
+                                      <ul class="pagination justify-content-end set_quantity">
+                                      <li class="page-item">
+                                      <button class="page-link " onclick="decreaseNumber('textbox1','itemval1')"> <i class="fas fa-minus"></i> </button>
+                                      </li>
+                                      <li class="page-item"><input type="text" name="" class="page-link" value="0" id="textbox1" >
+                                      </li>
+                                      <li class="page-item">
+                                      <button class="page-link" onclick="increaseNumber('textbox1','itemval1')"> <i class="fas fa-plus"></i></button>
+                                      </li>
+                                      </ul>
+                                      </div>
+                                      </div>
+                                      <!-- //remover move and price -->
+                                      <div class="row">
+                                      <div class="col-8 d-flex justify-content-between remove_wish">
+                                      <p><i class="fas fa-trash-alt"></i> REMOVE ITEM</p>
+                                      <p><i class="fas fa-heart"></i>MOVE TO WISH LIST </p>
+                                      </div>
+                                      <div class="col-4 d-flex justify-content-end price_money">
+                                      <h3>$<span id="itemval1">0.00 </span> </h3>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      <!-- right side div -->
+                                      <div class="col-md-12 col-lg-4 col-11 mx-auto mt-lg-0 mt-md-5">
+                                      <div class="right_side p-3 shadow bg-white">
+                                      <h2 class="product_name mb-5">The Total Amount Of</h2>
+                                      <div class="price_indiv d-flex justify-content-between">
+                                      <p>Product amount</p>
+                                      <p>$<span id="product_total_amt">0.00</span></p>
+                                      </div>
+                                      <div class="price_indiv d-flex justify-content-between">
+                                      <p>Shipping Charge</p>
+                                      <p>$<span id="shipping_charge">50.0</span></p>
+                                      </div>
+                                      <hr />
+                                      <div class="total-amt d-flex justify-content-between font-weight-bold">
+                                      <p>The total amount of (including VAT)</p>
+                                      <p>$<span id="total_cart_amt">0.00</span></p>
+                                      </div>
+                                      <button class="btn btn-primary text-uppercase">Checkout</button>
+                                      </div>
+                                      <!-- discount code part -->
+                                      <div class="discount_code mt-3 shadow">
+                                      <div class="card">
+                                      <div class="card-body">
+                                      <a class="d-flex justify-content-between" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                      Add a discount code (optional)
+                                      <span><i class="fas fa-chevron-down pt-1"></i></span>
+                                      </a>
+                                      <div class="collapse" id="collapseExample">
+                                      <div class="mt-3">
+                                      <input type="text" name="" id="discount_code1" class="form-control font-weight-bold" placeholder="Enter the discount code">
+                                      <small id="error_trw" class="text-dark mt-3">code is thapa</small>
+                                      </div>
+                                      <button class="btn btn-primary btn-sm mt-3" onclick="discount_code()">Apply</button>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      
+                                      
+                                      
+                                      
+                                      <!-- discount code ends -->
+                                      <div class="mt-3 shadow p-3 bg-white">
+                                      <div class="pt-4">
+                                      <h5 class="mb-4">Expected delivery date</h5>
+                                      <p>July 27th 2020 - July 29th 2020</p>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      </div>
+
+
+
+
+                                      <!-- blog -->
+
+
+
+
+                                      
+                                     <!-- footer area -->
+                                     <footer class="footer_widgets row mt-5 gx-3" style="background-color: #181818; color:#fff; padding-top:40px;">
+                                      <div class="footer_top" style="border-bottom: 1px solid #000;">
+                                          <div class="container">
+                                              <div class="row">
+                                                  
+                              
+                                                  <div class="col-lg-4 col-md-6 col-sm-6">
+                                                      <div class="widgets_container">
+                                                          <h3 style="color:#fff;">Information</h3>
+                                                          <div class="footer_menu">
+                                                              <ul>
+                                                                  <li><a style="color:#fff;" href="https://tftshoes.com/pages/about-us">About Us</a></li>
+                                                                  <li><a style="color:#fff;" href="https://tftshoes.com/pages/faq">FAQ</a></li>
+                              
+                                                                  <li><a style="color:#fff;" href="https://tftshoes.com/pages/repair-policy">Repair Policy</a></li>
+                                                                  <li><a style="color:#fff;" href="https://tftshoes.com/pages/in-the-media">In The Meida</a></li>
+                                                                  
+                                                                  <li><a style="color:#fff;" href="https://tftshoes.com/pages/contact-us">Contact Us</a></li>
+                                                                  
+                                                              </ul>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  
+                                                  
+                              
+                                                  
+                                              
+                              
+                                                  <div class="col-lg-4 col-md-6 col-sm-6">
+                                                      <div class="widgets_container contact_us">
+                                                          <h3 style="color:#fff;">Contact Us</h3>
+                                                          <div class="footer_contact">
+                                                              <p>Address: Kamal Pokhari, Kathmandu, Nepal</p>
+                                                              <p>Phone: <a style="color:#fff;" href="tel:+9779802066786" target="_blank">(+977) 9802066786</a> </p>
+                                                              <p>Email: <a style="color:#fff;" href="mailto:tft.factoryteam@gmail.com" target="_blank">tft.factoryteam@gmail.com</a></p>
+                                                              <ul>
+                                                                  
+                                                                  <li><a style="color:#fff;" href="https://www.facebook.com/" title="facebook" ><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
+                                                                  <li><a style="color:#fff;" href="https://www.instagram.com/" title="instagram" ><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                              </ul>
+                                                            
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                              
+                                                  <div class="col-lg-4 col-md-6 col-sm-6">
+                                                      <div class="widgets_container contact_us">
+                                                          
+                                                                                      
+                                                          <h3 style="color:#fff;">Subscribe Newsletter</h3>
+                              
+                                                          <div class="newleter-content">
+                                                              
+                                                               <div class="subscribe_form">
+                                                                  <form action="https://tftshoes.com/subscribe">
+                                                                      <div class="control-group" :class="[errors.has('subscriber_email') ? 'has-error' : '']">
+                                                                          <input type="email" class="control subscribe-field" name="subscriber_email" placeholder="Email Address" required="" style="color: #000;width: 100%;"><br>
+                              
+                                                                          <button class="btn btn-primary">Subscribe</button>
+                                                                      </div>
+                                                                  </form>
+                                                              </div>
+                                                          </div>
+                                                          
+                                                      </div>
+                              
+                                                      <div class="footer_custom_links text-left">
+                                                          We Accept<br>
+                                                          <img src="1.jpg" width="80px" height="50px">
+                                                      </div>
+                              
+                                                  </div>
+                              
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="footer_bottom">
+                                          <div class="container">
+                                             <div class="row">
+                                                  <div class="col-lg-12 col-md-12">
+                                                      <div class="copyright_area text-center">
+                                                          <p>Copyright © 2019 <a style="color:#fff;" href="">TFTShoes</a>  All Right Reserved.</p>
+                                                      </div>
+                                                      
+                                                  </div>
+                                                  
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </footer>
+            <script src="https://kit.fontawesome.com/b8e6caa6e6.js" crossorigin="anonymous"></script>
+        <script src="bootstrap-5.0.0-beta2\dist\js\bootstrap.min.js" ></script></body>
+</body>
+</html>
